@@ -1,0 +1,14 @@
+apiVersion: trustyai.opendatahub.io/v1alpha1
+kind: TrustyAIService
+metadata:
+  name: trustyai-service
+spec:
+  storage:
+    format: "HIBERNATE"
+    folder: "/inputs"
+    size: "1Gi"
+  data:
+    filename: "data.csv"
+    format: "BEAN"
+  metrics:
+    schedule: "5s"
