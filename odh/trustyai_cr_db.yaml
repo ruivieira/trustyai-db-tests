@@ -1,0 +1,10 @@
+apiVersion: trustyai.opendatahub.io/v1alpha1
+kind: TrustyAIService
+metadata:
+  name: trustyai-service-db
+spec:
+  storage:
+    format: "DATABASE"
+    databaseConfigurations: db-credentials
+  metrics:
+    schedule: "5s"

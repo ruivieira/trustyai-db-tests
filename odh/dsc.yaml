@@ -39,7 +39,7 @@ spec:
         manifests:
           - contextDir: config
             sourcePath: ''
-            uri: https://api.github.com/repos/RobGeada/trustyai-service-operator-ci/tarball/mariadb
+            uri: https://api.github.com/repos/ruivieira/trustyai-service-operator/tarball/RHOAIENG-8178-database
       managementState: Managed
     workbenches:
       managementState: Managed
